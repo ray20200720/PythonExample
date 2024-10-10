@@ -1,0 +1,33 @@
+# Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+
+# Test results
+coverage.py
+*.cover
+nosetests.xml
+test-results.xml
+
+# IDE-specific files
+.idea/
+.vscode/
+.pydev/
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# Sensitive data
+secrets.py
+config.py
